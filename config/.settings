@@ -1,0 +1,19 @@
+{
+    "username": "caldridge1@gmail.com.checkboxes", 
+    "environment": "developer", 
+    "project_name": "Checkboxes", 
+    "workspace": "/users/chris/Documents/MavensMate", 
+    "org_url": "", 
+    "namespace": "", 
+    "id": "B1ECPM49748IMOCT69GRG4T66AELLZDK", 
+    "metadata_container": "1dc240000001Jk9AAE", 
+    "subscription": [
+        "ApexClass", 
+        "ApexComponent", 
+        "ApexPage", 
+        "ApexTrigger", 
+        "StaticResource", 
+        "CustomObject", 
+        "Profile"
+    ]
+}
