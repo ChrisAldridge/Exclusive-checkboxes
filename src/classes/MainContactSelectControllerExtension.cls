@@ -1,8 +1,8 @@
 public class MainContactSelectControllerExtension 
 {
-        public List<Contact> AccountContacts { get; set; }
+    public List<Contact> AccountContacts { get; set; }
 
-        public Contact MainContact { get; set; }
+    public Contact MainContact { get; set; }
 
     public MainContactSelectControllerExtension(ApexPages.StandardController controller) 
     {
@@ -10,8 +10,8 @@ public class MainContactSelectControllerExtension
 
         // Retrieve all contacts or this account
         AccountContacts = [SELECT Id, Name, Email, Main_Contact__c
-                                           FROM Contact
-                                           WHERE AccountId = :accountId];
+                           FROM Contact
+                           WHERE AccountId = :accountId];
 
         // If a main contact is already set for this account, display ot
         SetMainContact();

@@ -6,7 +6,7 @@
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 23, 
+                "column": 26, 
                 "line": 3
             }, 
             "type": "LIST"
@@ -17,7 +17,7 @@
             "visibility": "PUBLIC", 
             "references": [], 
             "location": {
-                "column": 17, 
+                "column": 20, 
                 "line": 5
             }, 
             "type": "Contact"
@@ -74,7 +74,7 @@
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 9, 
+                "column": 12, 
                 "line": 9
             }, 
             "name": "accountId"
@@ -84,7 +84,7 @@
             "modifiers": [], 
             "references": [], 
             "location": {
-                "column": 19, 
+                "column": 22, 
                 "line": 25
             }, 
             "name": "con"
